@@ -125,9 +125,29 @@ def draw_catfish(x, y, k, z):
                                       (x + int(13 * 150 / 75), y + int(z / 5))))
 
 
+# drawing homes
+draw_home(50, 500, 75, 5, 0, 0)
+draw_home(450, 550, 90, 5, 0, 0)
+draw_home(250, 600, 150, 5, 0, 0)
+draw_home(100, 650, 100, 5, 0, 0)
+draw_home(400, 700, 100, 5, 0, 0)
+
+# drawing men
+
+draw_men(700, 500, 40, 0)
+draw_men(650, 450, 40, 0)
+draw_men(600, 550, 50, 0)
+draw_men(500, 500, 50, 0)
+draw_men(510, 600, 100, 0)
+draw_men(700, 600, 70, 0)
+draw_men(600, 650, 100, 0)
+
+# drawing cats with fish
+draw_catfish(-40, 850, 150, 50)
 draw_catfish(100, 750, 150, 50)
-draw_home(250, 500, 150, 5, 0, 0)
-draw_men(510, 600, 150, 0)
+draw_catfish(300, 850, 150, 50)
+draw_catfish(700, 800, 150, 50)
+draw_catfish(600, 900, 150, 50)
 
 pygame.display.update()
 clock = pygame.time.Clock()

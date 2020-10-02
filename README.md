@@ -1,2 +1,4 @@
 # infa_2020_chigriil
 It's test project
+Initial project 1db63e50c516cd73e16413dd80595590d7a4a273
+Modified project fb38b80fef43ffe1270f139380e91f055e0a2078

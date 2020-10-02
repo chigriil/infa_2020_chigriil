@@ -30,7 +30,7 @@ def draw_vert_line(x, y, r, z):
 
 # function to draw turned ellipses
 def turned_ellipse(x0, y0, r, g, b, alpha, x1, y1):
-    turned_ellipse_surf = pygame.Surface((x0, y0))
+    turned_ellipse_surf = pygame.Surface((x0, y0), pygame.SRCALPHA)
     ellipse(turned_ellipse_surf, (r, g, b), (0, 0, x0, y0))
     turned_ellipse_surf = pygame.transform.rotate(turned_ellipse_surf, alpha)
     screen.blit(turned_ellipse_surf, (x1, y1))
@@ -160,3 +160,4 @@ while not finished:
             finished = True
 
 pygame.quit()
+
